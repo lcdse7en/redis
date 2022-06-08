@@ -1,0 +1,95 @@
+\documentclass[a4paper]{ctexart}    %ctexart, article
+\usepackage[margin=1cm]{geometry}
+\usepackage{graphicx} % 插图
+\usepackage{subfigure} % 子图包
+\usepackage{amsmath, mathrsfs, amsfonts}
+\usepackage{amssymb} % 更多公式符号
+\usepackage{physics} % 公式输入便捷命令
+\usepackage{hyperref} % 超链接
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan
+}
+\usepackage[utf8]{inputenc}
+\usepackage{pgfplots}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{minted}
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+\usepackage{array}
+\usepackage{booktabs} % 调整表格线与上下内容的间隔
+
+
+\begin{document}
+\begin{tcolorbox}[
+         colback=red!5!white,
+         colframe=teal,
+         title=\textbf{redis install on source code}
+    ]
+\begin{minted}[mathescape,
+               linenos,
+               numbersep=5pt,
+               gobble=0,
+               frame=lines,
+               framesep=2mm]{bash}
+wget http://download.redis.io/releases/redis-6.0.8.tar.gz
+tar xzf redis-6.0.8.tar.gz
+cd redis-6.0.8
+make
+
+cd src
+./redis-server ../redis.conf
+
+cd src
+./redis-cli
+
+\end{minted}
+\end{tcolorbox}
+
+\begin{tcolorbox}[
+         colback=red!5!white,
+         colframe=teal,
+         title=\textbf{redis install on Ubuntu}
+    ]
+\begin{minted}[mathescape,
+               linenos,
+               numbersep=5pt,
+               gobble=0,
+               frame=lines,
+               framesep=2mm]{bash}
+sudo apt update
+sudo apt full-upgrade
+sudo apt install build-essential tcl
+
+# 安装Redis服务器
+sudo apt-get install redis-server
+# 启动Redis服务器
+redis-server
+
+# 启动Redis客户端
+redis-cli
+\end{minted}
+\end{tcolorbox}
+
+\begin{tcolorbox}[
+         colback=red!5!white,
+         colframe=teal,
+         title=\textbf{Redis order}
+    ]
+\begin{minted}[mathescape,
+               linenos,
+               numbersep=5pt,
+               gobble=0,
+               frame=lines,
+               framesep=2mm]{bash}
+# 查看redis中的集合
+$ key *
+
+# 添加集合
+$ sadd name demo
+\end{minted}
+\end{tcolorbox}
+\end{document}

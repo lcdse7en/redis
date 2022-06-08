@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+wget http://download.redis.io/releases/redis\PYGZhy{}6.0.8.tar.gz
+tar xzf redis\PYGZhy{}6.0.8.tar.gz
+\PYG{n+nb}{cd} redis\PYGZhy{}6.0.8
+make
+
+\PYG{n+nb}{cd} src
+./redis\PYGZhy{}server ../redis.conf
+
+\PYG{n+nb}{cd} src
+./redis\PYGZhy{}cli
+\end{Verbatim}
