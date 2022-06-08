@@ -1,6 +1,6 @@
 \begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
 \PYG{c+c1}{\PYGZsh{} 查看redis中的集合}
-\PYGZdl{} key *
+\PYGZdl{} keys *
 
 \PYG{c+c1}{\PYGZsh{} 添加集合}
 \PYGZdl{} sadd name demo

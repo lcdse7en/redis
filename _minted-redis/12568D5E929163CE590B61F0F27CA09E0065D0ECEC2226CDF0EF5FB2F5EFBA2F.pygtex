@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n+nb}{alias} \PYG{l+s+s2}{\PYGZdq{}redis\PYGZhy{}server\PYGZdq{}}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}redis\PYGZhy{}server()\PYGZob{} cd \PYGZti{}/redis\PYGZhy{}6.0.8/src;./redis\PYGZhy{}server;\PYGZcb{};redis\PYGZhy{}server\PYGZsq{}}
+\PYG{n+nb}{alias} \PYG{l+s+s2}{\PYGZdq{}redis\PYGZhy{}cli\PYGZdq{}}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}redis\PYGZhy{}cli()\PYGZob{} cd \PYGZti{}/redis\PYGZhy{}6.0.8/src;./redis\PYGZhy{}cli;\PYGZcb{};redis\PYGZhy{}cli\PYGZsq{}}
+\end{Verbatim}

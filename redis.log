@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2021.9.28)  8 JUN 2022 12:18
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2021.9.28)  8 JUN 2022 12:52
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1675,11 +1675,6 @@ your preamble.
 
 (./_minted-redis/default-pyg-prefix.pygstyle) (./_minted-redis/default.pygstyle
 )
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -P mat
-hescape=True -F gobble:n=0 -o _minted-redis/130CFE97ACC4CF7030FC1DAA62441F4D006
-5D0ECEC2226CDF0EF5FB2F5EFBA2F.pygtex redis.pyg)...executed.
-
-
 (./_minted-redis/130CFE97ACC4CF7030FC1DAA62441F4D0065D0ECEC2226CDF0EF5FB2F5EFBA
 2F.pygtex
 
@@ -1713,15 +1708,20 @@ LaTeX Font Warning: Font shape `TU/FandolFang-Regular(0)/m/it' undefined
 \openout6 = `redis.pyg'.
 
 
-(./_minted-redis/FAF17F7112331117B5E04F250E540D900065D0ECEC2226CDF0EF5FB2F5EFBA
+(./_minted-redis/E5B16E1AE3A9076A171793A3A1A72F920065D0ECEC2226CDF0EF5FB2F5EFBA
+2F.pygtex)
+\openout6 = `redis.pyg'.
+
+
+(./_minted-redis/12568D5E929163CE590B61F0F27CA09E0065D0ECEC2226CDF0EF5FB2F5EFBA
 2F.pygtex) [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
  (./redis.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 95.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 112.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `redis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1730,13 +1730,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 runsystem(rm redis.pyg)...executed.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 46853 strings out of 481201
- 1125930 string characters out of 5920207
- 1561335 words of memory out of 5000000
- 63091 multiletter control sequences out of 15000+600000
+ 46861 strings out of 481201
+ 1126386 string characters out of 5920207
+ 1562481 words of memory out of 5000000
+ 63096 multiletter control sequences out of 15000+600000
  535592 words of font info for 48 fonts, out of 8000000 for 9000
  286 hyphenation exceptions out of 8191
  68i,6n,98p,943b,689s stack positions out of 5000i,500n,10000p,200000b,80000s

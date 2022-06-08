@@ -86,10 +86,27 @@ redis-cli
                frame=lines,
                framesep=2mm]{bash}
 # 查看redis中的集合
-$ key *
+$ keys *
 
 # 添加集合
 $ sadd name demo
+\end{minted}
+\end{tcolorbox}
+
+\begin{tcolorbox}[
+         colback=red!5!white,
+         colframe=teal,
+         title=\textbf{redis server and cli alias on aliases.zsh}
+    ]
+\begin{minted}[mathescape,
+               linenos,
+               numbersep=5pt,
+               gobble=0,
+               frame=lines,
+               framesep=2mm]{bash}
+
+alias "redis-server"='redis-server(){ cd ~/redis-6.0.8/src;./redis-server;};redis-server'
+alias "redis-cli"='redis-cli(){ cd ~/redis-6.0.8/src;./redis-cli;};redis-cli'
 \end{minted}
 \end{tcolorbox}
 \end{document}
